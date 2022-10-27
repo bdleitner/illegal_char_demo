@@ -4,6 +4,7 @@ Demo for issues related to running `go_test` targets from within IJ using the Ba
 
 ### Version Info:
 
+Windows: 10.0.19043
 Goland: 2022.2.2 Build #GO-222.3739.57, built on August 16, 2022
 Bazel Version: 5.3.2 (via Bazelisk v1.11.0)
 Bazel Plugin: com.google.idea.bazel.ijwb (2022.10.04.0.1-api-version-222)
