@@ -10,8 +10,8 @@ func TestSimplePass(t *testing.T) {
 	}
 }
 
-//func TestSimpleFail(t *testing.T) {
-//  if got := simple(2); got != 5 {
-//    t.Errorf("Got %d wanted 5", got)
-//  }
-//}
+func TestSimpleFail(t *testing.T) {
+	if got := simple(2); got != 5 {
+		t.Errorf("Got %d wanted 5", got)
+	}
+}

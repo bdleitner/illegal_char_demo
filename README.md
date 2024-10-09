@@ -12,7 +12,7 @@ Bazel Plugin: com.google.idea.bazel.ijwb (2022.10.04.0.1-api-version-222)
 
 ### Examples:
 
-#### Running from the command line
+#### Running from the com
 
 Everything works as expected.
 
@@ -21,10 +21,14 @@ Everything works as expected.
 
 #### Running from Goland
 
+Previously, the test result reporting was incorrect:
+ 
 * [Without Failing Test](screenshots/run-ij-passing.png) - the tests pass, but on the left side, 
   the message "No tests were found" appears, even with "show passing" selected.
 * [With Failing Test](screenshots/run-ij-failing.png) - the tests fail as expected, but on the 
   left side, only the failing test shows up, even with "show passing" selected.
+
+But this appears to have been resolved.
 
 #### Debugging from Goland
 * [Debugging](screenshots/debug-ij.png) - the tests don't even run, as an illegal character
